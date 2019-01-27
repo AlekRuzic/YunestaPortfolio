@@ -1,0 +1,187 @@
+nav, header, footer, section, main {
+	display: block;
+}
+
+@font-face {
+   font-family: aghila;
+   src: url(aghila.ttf);
+}
+
+@font-face {
+   font-family: BodoniXT;
+   src: url(BodoniXT.ttf);
+}
+
+@font-face {
+   font-family: OpenSans-Regular;
+   src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: angltrr;
+   src: url(angltrr.ttf);
+}
+
+@font-face {
+   font-family: Antipasto_regular;
+   src: url(Antipasto_regular.otf);
+}
+
+@font-face {
+   font-family: Roboto-Thin;
+   src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+   font-family: Roboto-Condensed;
+   src: url(Roboto-Condensed.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#titleDiv {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	font-size:70px;
+	padding-top:30px;
+	font-family:Roboto-Thin;
+	text-shadow: 0.5px 0.5px 3px black;
+}
+
+header {
+	margin-top:0;
+	height:25px;
+	box-shadow: 0px 0px 3px 0px #111;
+}
+
+
+#topBar {
+	position: fixed;
+	top: 0;
+	background-color:white;
+	width:100%;
+	height:25px;
+}
+
+nav ul { 	
+	list-style-type:none;	
+}
+
+nav li {
+	float:left;
+	margin-top:3px;
+}
+
+nav a {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:12px;
+	font-family:Roboto-Thin;
+	
+}
+
+nav a:hover { 
+	color:pink;
+}
+
+
+#websiteLinks {
+	float:left;
+	margin-left:30px;
+}
+
+
+#websiteLinks a {
+	padding-right:10px;
+}
+
+
+#socialMedia {
+	float:right;
+	margin-right:80px;
+}
+	
+#socialMedia li {
+	padding-left:15px;
+}
+
+#socialMedia img {
+	height:20px;
+	width:20px;
+}
+
+#socialMedia img:hover {
+	opacity:0.5;
+}
+
+
+#wrap {
+	width:990px;
+	margin: 0 auto;
+	margin-top:40px;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
+}
+
+section {
+	width:330px;
+	float:left;
+	text-align:center;
+}
+
+section ul {
+	list-style-type:none;
+}
+
+section img {
+	height:250px;
+	width:300px;
+}
+
+.article a {
+	text-decoration:none;
+	text-align:left;
+	font-family: Roboto-Thin, Arial, sans-serif;
+	font-size:17px;
+	color:black;
+}
+
+.article a:hover { 
+	color:pink;
+}
+
+.article h3 {
+	padding-left:4px;
+}
+
+
+.article {
+	padding-top:40px;
+	height:400px;
+	width:290px;
+}
+
+.Date {
+	display:block;
+	float:left;
+	margin-left:6px;
+	font-family:"Times New Roman", Arial;
+	color: pink;
+}
+
+.Teaser {
+	clear:both;
+	display:block;
+	font-family: Roboto-Thin, Arial, sans-serif;
+	padding-top:5px;
+	text-align:left;
+	padding-left:6px;
+}
+
